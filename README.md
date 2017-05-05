@@ -10,6 +10,20 @@ $ npm install ps-free-proxy-list
 
 ## Usage
 
+Module exports default singleton
+
+```javascript
+const freeProxyList = require('ps-free-proxy-list'); 
+const source = freeProxyList() // singleton
+```
+
+Alternatively
+
+```javascript
+const FreeProxyList = require('ps-free-proxy-list').Source;
+const source = new FreeProxyList();
+```
+
 For complete guide please visit [proxy-supervisor](https://github.com/vladislao/proxy-supervisor/#how-to-play).
 
 ## Design
