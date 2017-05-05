@@ -14,9 +14,7 @@ For complete guide please visit [proxy-supervisor](https://github.com/vladislao/
 
 ## Design
 
-### Source
-
-  Source is responsible for collecting new proxies from [free-proxy-list.net](http://free-proxy-list.net/) and adding them to listeners.
+  This source is responsible for collecting new proxies from [free-proxy-list.net](http://free-proxy-list.net/) and adding them to listeners.
 
 #### new Source([options])
   * **options** *\<Object\>* Set of configurable options to set on the monitor. Can have the following fields:
